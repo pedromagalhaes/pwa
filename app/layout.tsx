@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 
-const APP_NAME = "next-pwa example";
-const APP_DESCRIPTION = "This is an example of using next-pwa";
+const APP_NAME = "pwa";
+const APP_DESCRIPTION = "example";
 
 export const metadata: Metadata = {
   applicationName: APP_NAME,
