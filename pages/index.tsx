@@ -89,9 +89,9 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>next-pwa example</title>
+        <title>PWA</title>
       </Head>
-      <h1>Next.js + PWA = AWESOME!</h1>
+      <h1>Next.js + PWA</h1>
       <button type="button" onClick={subscribeButtonOnClick} disabled={isSubscribed}>
         Subscribe
       </button>
@@ -101,6 +101,15 @@ const Index = () => {
       <button type="button" onClick={sendNotificationButtonOnClick} disabled={!isSubscribed}>
         Send Notification
       </button>
+      <br /><br />
+      <h4>Features:</h4>
+      <ul>
+        <li>Basic <b>offline</b> support</li>
+        <li>Can be <b>installed</b></li>
+        <li>Can be added to the <b>homescreen</b></li>
+        <li>Can send web <b>push notifications</b> when subscribed</li>
+        <li>When opened as a Desktop app, it can be <b>Casted</b> on a TV</li>
+      </ul>
     </>
   );
 };
